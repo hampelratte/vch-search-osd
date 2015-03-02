@@ -5,6 +5,7 @@
 	<packaging>bundle</packaging>
 	<name>VCH Search OSD Interface</name>
 	<version>1.0.0-SNAPSHOT</version>
+    <description>OSD interface to search for videos on different sites.</description>
     
     <parent>
         <artifactId>parent</artifactId>
@@ -12,8 +13,13 @@
         <version>2</version>
         <relativePath>../vch-parent/pom.xml</relativePath>
     </parent>
+
+    <scm>
+        <connection>scm:git:git@github.com/hampelratte/vch-search-osd.git</connection>
+        <developerConnection>scm:git:git@github.com:hampelratte/vch-search-osd.git</developerConnection>
+        <url>https://github.com/hampelratte/vch-search-osd.git</url>
+    </scm>
     
-    <description>OSD interface to search for videos on different sites.</description>
     <dependencies>
 		<dependency>
 			<groupId>de.berlios.vch</groupId>
