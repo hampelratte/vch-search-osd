@@ -3,7 +3,7 @@
 	<artifactId>search.osd</artifactId>
 	<packaging>bundle</packaging>
 	<name>VCH Search OSD Interface</name>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
     <description>OSD interface to search for videos on different sites.</description>
     
     <parent>
